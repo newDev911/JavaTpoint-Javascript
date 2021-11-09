@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"po",
+				"pow"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"vo",
+				"vowel"
+			],
+			[
+				"use",
+				"usersMy"
+			],
+			[
+				"us",
+				"usersMy"
+			],
+			[
+				"ge",
+				"gender"
+			],
+			[
+				"emp",
+				"emp4"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"onC",
+				"onclick\tAttr"
+			],
+			[
+				"fo",
+				"font\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"backgr",
+				"background-repeat\tproperty"
+			],
+			[
+				"lsi",
+				"list-style\tproperty"
+			],
+			[
+				"backgro",
+				"background-position\tproperty"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"colr",
+				"color\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"lis",
+				"list-style-image\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"word",
+				"word-spacing\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"t",
+				"text-shadow\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Tutorials/Php/Exercises/Javatpoint_Php - Shortcut.lnk",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/10_Functions.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/4_Variables.html",
+		"/C/xampp/htdocs/Cms/admin/login.php",
+		"/C/xampp/htdocs/Cms/admin/index.php",
+		"/C/xampp/htdocs/Cms/admin/add-user.php",
+		"/F/Ab Raffay/PhpProject/Cms/admin/header.php",
+		"/F/Ab Raffay/PhpProject/Cms/admin/login.php",
+		"/F/Ab Raffay/PhpProject/Cms/admin/add-user.php",
+		"/F/Ab Raffay/PhpProject/Cms/admin/index.php",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/13_Strings.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/14_Date.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/15_Math.html",
+		"/E/Tutorials/Python/Mosh2/class1.py",
+		"/E/Tutorials/Python/Mosh2/class2.py",
+		"/E/Tutorials/Python/Mosh2/class3.py",
+		"/E/Tutorials/Python/Mosh/class3.py",
+		"/E/Tutorials/Python/Mosh/class2.py",
+		"/E/Tutorials/Python/Mosh/class1.py",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/practice.html",
+		"/E/Tutorials/Python/SirJawad/Class2/index2.py",
+		"/E/Tutorials/Python/SirJawad/Class2/index.py",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/12_Array.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/11_Objects.html",
+		"/E/Tutorials/Css/Web-1/css/style.css",
+		"/E/Tutorials/Css/Web-1/index.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/2_JavascriptExample.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/3_ExternalJavascriptFIle.js",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/1_JavascriptExample.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/3_ExternalJavascriptFile.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/5_DataTypes.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/6_Operators.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/7_If_Else.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/8_Switch.html",
+		"/E/Tutorials/Javascript/Exercises/Javascript - Javatpoint/9_Loops.html",
+		"/E/Tutorials/Css/index.html",
+		"/E/Tutorials/Css/css/style.css",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/style.css",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/index.php",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/footer.php",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/header.php",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/css/awesome.css",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/js/awesome.js",
+		"/C/xampp/htdocs/demo_wordpress/wp-content/themes/awesomethemeWordpress/functions.php",
+		"/E/Tutorials/Css/index2.html",
+		"/E/Tutorials/Css/css/style2.css"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 51.2
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gAc.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

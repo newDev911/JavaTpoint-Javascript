@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functions</title>
+</head>
+<body>
+<!-- 
+	Javascript functions are used to perform operations. We can call
+	Javascript 'functions' multiple times to reuse the code.
+
+	ADVANTAGES OF FUNCTIONS:
+	1. Code Reusability:
+			We can call a function several times so it save our time.
+	2. Less Coding:
+			It makes our program compact. We don't need to repeat the
+			code to perform a common task.
+ -->
+
+ 	<h1>Function Example</h1>
+ 	<script type="text/javascript">
+ 		function msg(){
+ 			alert("Hello, Welcome!");
+ 		}
+ 	</script>
+ 	<input type="button" onclick="msg()" value="Click Me">
+
+
+<!-- 
+ 	We can call the 'function' by passing arguments. Let's see the 
+ 	example of 'function' that has one argument.
+ -->
+ 	<h1>Function With Argument</h1>
+ 	<script type="text/javascript">
+ 		/* 'number' inside bracket is an argument(variable) */
+ 		function cube(number){
+			alert(number * number * number); 			
+ 		}
+ 	</script>
+
+ 	<input type="button" value="Click me" onclick="cube(4)">
+
+<!-- 
+ 	We can call 'function' that returns a value and use it in
+ 	our program.  
+ -->
+
+ 	<h1>Function with return value</h1>
+
+ 		<script type="text/javascript">
+ 			function sayHello(){
+ 				return "Hello World!";
+ 			}
+
+
+ 		document.write(sayHello());
+ 		</script>
+
+<!-- 
+		In Javascript, the purpose of 'Function Constructor' is to create a 
+		new 'Function Object'. It executes the code globally. However, if 
+		we call the constructor directly, a function is created dynamically
+		but in an unsecured way.
+		 -->
+
+	 <h1>Function Object Example</h1>
+		 <script type="text/javascript">
+		 	var add = new Function("num1", "num2", "return num1+num2");
+
+		 	document.write(add(2,5));
+			
+			document.write("<br>");
+
+			var sub = new Function("n1", "n2", "return n1 - n2");
+
+			document.write(sub(5, 3));
+
+		 </script>
+</body>
+</html>

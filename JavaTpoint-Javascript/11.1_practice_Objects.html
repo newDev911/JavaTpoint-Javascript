@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Objects</title>
+</head>
+<body>
+
+
+	<h1>By Object Literal</h1>
+	<script type="text/javascript">
+		 user = {id: 2, name: "Jake", age: 23};
+		document.write(user.id + "<br>" + user.name + "<br>" + user.age);
+	</script>
+
+	<h1>By Instance of Object</h1>
+	<script type="text/javascript">
+		
+		var employee = new Object();
+		employee.id = 1;
+		employee.name = "Dan";
+		employee.age = 20;
+
+		document.write("ID: " + employee.id + "<br> Name: " + employee.name + "<br> Age: " + employee.age);
+	</script>
+
+	<h1>Using Object Constructor</h1>
+	<script type="text/javascript">
+		function student(id, name, age){
+			this.id = id;
+			this.name = name;
+			this.age = age;
+
+			function changeAge(newAge){
+				this.age = newAge;
+			}
+
+			this.changeAge = changeAge;
+		}
+
+		var obj = new student(3, "JJon", 33);
+
+		document.write(obj.id + "<br>" + obj.name + "<br>" + obj.age);
+
+		obj.changeAge(36)
+		document.write("<br>New Age = " + obj.age);
+
+	</script>
+
+</body>
+</html>

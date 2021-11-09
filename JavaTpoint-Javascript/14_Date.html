@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date</title>
+</head>
+<body>
+<!-- 
+	The Javascript 'date' object can be used to get year, month and day.
+	You can display a timer on the web page by the help of Javascript 
+	'date' object.
+
+	You can use different 'Date' constructors to create 'date' object.
+
+	You can use 4 variant of 'Date' constructor to create 'Date' object.
+
+	1. Date()
+	2. Date(milliseconds)
+	3. Date(dateString)
+	4. Date(year, month, day, hours, seconds, milliseconds)
+
+ -->
+
+ 	<h1>Date Example</h1>
+ 	Current Date & Time: <span id="txt"></span>
+
+ 	<script type="text/javascript">
+ 		var today = new Date();
+ 		document.getElementById('txt').innerHTML = today;
+ 	</script>
+
+
+ 	<h1>Print 'Date' 'Month' & 'Year'</h1>
+ 	<script type="text/javascript">
+ 		var date = new Date();
+ 		var day = date.getDate();
+ 		var month = date.getMonth()+1;
+ 		var year = date.getFullYear();
+
+ 		document.write("Current Date is " + day + "/" + month + "/" + year);
+ 	</script>
+
+ 	<h1>Print Time</h1>
+ 	<script type="text/javascript">
+ 		var today = new Date();
+
+ 		var h = today.getHours();
+ 		var m = today.getMinutes();
+ 		var s = today.getSeconds();
+
+ 		document.write("Current Time is " + h + " : " + m +" : " + s);
+ 	</script>
+
+
+ 	<h1>Digital Clock</h1>
+ 	Current Time <span id="tt"></span>
+  	
+    <script type="text/javascript">
+  		window.onload = function(){getTime();}
+
+  		function getTime(){
+  			var tDay = new Date();
+
+  			var hh = tDay.getHours();
+  			var mm = tDay.getMinutes();
+  			var ss = tDay.getSeconds();
+
+  			hh = checkTime(hh);
+  			mm = checkTime(mm);
+  			ss = checkTime(ss);
+
+  			document.getElementById('tt').innerHTML = hh + " : " + mm + " : " + ss;
+  			setTimeout(function(){getTime()}, 1000);
+  		}
+
+  		function checkTime(i){
+  			if(i < 10){
+  				i = "0" + i;
+  			}
+  			return i;
+  		}
+  	</script>
+
+</body>
+</html>

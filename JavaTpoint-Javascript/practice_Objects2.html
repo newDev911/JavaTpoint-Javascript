@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Objects</title>
+</head>
+<body>
+
+
+	<h1>By Object Literal</h1>
+	<script type="text/javascript">
+		car = {name: "Ford", model: "Mustang", year: "1969"};
+		document.write(car.name + " " + car.model + " " + car.year);
+	</script>
+
+
+
+	<h1>By Instance of Object</h1>
+	<script type="text/javascript">
+		var fruit = new Object();
+		fruit.first = "apple";
+		fruit.second = "mango";
+		document.write(fruit.first + " " + fruit.second);
+
+	</script>
+
+	<h1>Using Object Constructor</h1>
+	<script type="text/javascript">
+		function user(id, name, email){
+			this.id = id;
+			this.name = name;
+			this.email = email;
+
+			this.changeId = changeId;
+			function changeId(newId){
+				this.id = newId;
+			}
+		}
+
+		var u = new user(12, "John", "jd@gmail.com");
+		document.write(u.id + " " + u.name + " " + u.email);
+
+		u.changeId(14);
+		document.write("<br>" + u.id);
+	</script>
+
+</body>
+</html>

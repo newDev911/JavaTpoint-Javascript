@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+</head>
+<body>
+<!-- 
+	Javascript 'Array' is an object that represents a collection of
+	similar types of elements.
+
+	There are 3 ways to construct an 'array' in Javascript.
+
+	1. By Array Literal
+	2. By Creating Instance of Array Directly(using 'new' keyword)
+	3. By Using an Array Constructor(using 'new' keyword)
+
+ -->
+
+
+ 	<h1>By Array Literal</h1>
+ 	<script type="text/javascript">
+ 		var users =["Sarah", "Sammy", "Mike"];
+
+ 		for(var i = 0; i < users.length; i++){
+ 			document.write(users[i] + "<br>");
+ 		}
+ 	</script>
+
+ 	<h1>Array Directly (Using new Keyword)</h1>
+ 	<script type="text/javascript">
+ 		var myUsers = new Array();
+
+ 		myUsers[0] = "Sasha";
+ 		myUsers[1] = "Dani";
+ 		myUsers[2] = "Lana";
+
+ 		for(var i = 0; i < myUsers.length; i++){
+ 			document.write(myUsers[i] + "<br>");
+ 		}
+
+ 	</script>
+
+ 	<h1>Array Constructor (new Keyword)</h1>
+ 	<script type="text/javascript">
+ 		var usersMy = new Array("Jake", "Clark", "Paul");
+
+ 		for(var i = 0; i < usersMy.length; i++){
+ 			document.write(usersMy[i] + "<br>");
+ 		}  
+ 	</script>
+
+</body>
+</html>

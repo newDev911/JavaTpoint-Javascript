@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Functions</title>
+</head>
+<body>
+
+ 	<h1>Function Example</h1>
+ 	<script type="text/javascript">
+ 		function sayHello(){
+ 			alert("Hello");
+ 		}
+
+ 	</script>
+ 	<input type="button" onclick="sayHello()" value="Alert Hello">
+
+
+ 	<h1>Function With Argument</h1>
+
+ 	<script type="text/javascript">
+ 	// Find cube of 'n'	
+ 		function cube(n){
+ 			return "Cube of " + n + " is: " + n * n * n;
+ 		}
+ 	</script>
+
+ 	<p id="outputCube"></p>
+ 	<input type="button" value="Find Cube" onclick="document.getElementById('outputCube').innerHTML = cube(15)">
+
+
+	 <h1>Function Object Example</h1>
+		 <script type="text/javascript">
+			var add = new Function("num1", "num2", "return num1 + num2");
+
+			document.write("5 + 5 = " + add(5, 5))
+		 </script>
+</body>
+</html>

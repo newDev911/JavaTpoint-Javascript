@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Objects</title>
+</head>
+<body>
+<!-- 
+	A Javascript 'object' is an entity having state and behavior (properties 
+	& Methods). For example:
+	Car, Pen, Bike etc.
+
+	Javascript is an object-based language. Everything is an object in 
+	Javascript.
+
+	Javascript is template based not class based. Here, we don't create class
+	to get the object. But we direct create objects.
+	 -->
+<!-- 
+	 CREATING OBJECTS IN JAVASCRIPT:
+	 There are 3 ways to create objects in Javascript.
+	 1. By object literal
+	 2. By creating instance of Object directly (using 'new' keyword)
+	 3. By using an Object Constructor (using 'new' keyword)
+ -->
+
+
+ 	<h1>Javascript Object By Object Literal</h1>
+ 	<script type="text/javascript">
+ 		emp = {id:11, name:"Jane", age:24};
+
+ 		document.write(emp.id + " " + emp.name + " " + emp.age);
+ 	</script>
+
+
+ 	<h1>By Creating Instance of Object</h1>
+ 	<script type="text/javascript">
+ 	var emp1 = new Object();
+
+ 	emp1.id = 22;
+ 	emp1.name = "Mira";
+ 	emp.age = 23;
+
+ 	document.write(emp1.id + " " + emp1.name + " " + emp.age);
+ 	</script>
+
+
+ 	<h1>By Using An Object Constructor</h1>
+ 	<!-- 
+ 	Here you need to create 'function' with 'arguments'. Each 'arguments' value can be assigned in the current object by using 'this' keyword.
+
+ 	The 'this' keyword refers to current object.
+ -->
+ 	<script type="text/javascript">
+ 		function emp3(id, name, age){
+ 			this.id = id;
+ 			this.name = name;
+ 			this.age = age;
+ 		}
+
+ 		e = new emp3(9, "Hayley", 21);
+
+ 		document.write(e.id + "	" + e.name + "	" + e.age);
+ 	</script>
+
+
+ 	<h1>Defining Method in Javascript Object</h1>
+<!-- 
+ 	We can define method in Javascript 'object'. But before defining method, 
+ 	we need to add property in the function with the same name as method.
+ -->
+
+ 	<script type="text/javascript">
+ 		function emp4(id, name, age){
+ 			this.id = id;
+ 			this.name = name;
+ 			this.age = age;
+
+ 			// Defining property naming same as method.
+ 			this.changeAge = changeAge;
+ 			function changeAge(myAge){
+ 				this.age = myAge;
+ 			}
+ 		}
+
+ 		e = new emp4(6, "Sarah", 26);
+ 		document.write(e.id + " " + e.name + " " + e.age);
+
+ 		// * Calling changeAge function with reference object
+ 		e.changeAge(25);
+
+ 		document.write("<br>" + e.id + " " + e.name + " " + e.age + "<br>" + 
+ 			"Age has been Updated");
+ 	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function employee(id, name, age){
+	this.id = id;
+	this.name = name;
+	this.age = age;
+
+	var changeAge = age;
+	function changeAge(age){
+		this.age = age;
+	}
+}
+
+var obj = new employee(1, "Don", 24);
+obj.id;
+obj.name;
+obj.age;
+
+
+
+

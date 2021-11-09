@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Date</title>
+</head>
+<body>
+
+ 	<h1>Date Example</h1>
+ 	Current Date & Time: <span id="txt"></span>
+
+ 	<script type="text/javascript">
+ 		document.getElementById('txt').innerHTML = Date();
+ 	</script>
+
+
+ 	<h1>Print 'Date' 'Month' & 'Year'</h1>
+ 	<script type="text/javascript">
+ 		var date = new Date();
+
+ 		var day = date.getDate();
+ 		var month = date.getMonth() - 1;
+ 		var year = date.getFullYear();
+
+ 		document.write("Date: " + day + ", Month: " + month + ", Year: " + year);
+ 	</script>
+
+ 	<h1>Print Time</h1>
+ 	<script type="text/javascript">
+ 		var today = new Date();
+
+ 		var hour = today.getHours();
+ 		var minut = today.getMinutes();
+ 		var second = today.getSeconds();
+
+ 		document.write(hour + ":" + minut + ":" + second);
+ 	</script>
+
+
+ 	<h1>Digital Clock</h1>
+ 	Current Time <span id="tt"></span>
+  	
+  	<script type="text/javascript">
+  		window.onload = function(){getTime();}
+
+  		function getTime(){
+  			var Day = new Date();
+
+  			var hh = Day.getHours();
+  			var mm = Day.getMinutes();
+  			var ss = Day.getSeconds();
+
+  			hh = checkTime(hh);
+  			mm = checkTime(mm);
+  			ss = checkTime(ss);
+
+  			document.getElementById('tt').innerHTML = hh + " : " + mm + " : " + ss;
+
+  			setTimeout(function(){getTime()}, 1000); 
+  		}
+
+  		function checkTime(t){
+  			if(t < 10){
+  				t = "0" + t;
+  			}
+  			return t;
+  		}
+  	</script>
+
+</body>
+</html>
